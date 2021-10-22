@@ -4,7 +4,7 @@ echo 'Welcome to Notes app For linux'
 sh ./info.sh
 
 
-#help -h command
+#help -h command secition
 terminal= read -p "NotesApp>" help
 if test "$help" == "-h"
 then
