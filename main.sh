@@ -8,5 +8,5 @@ read -p "NotesApp>" help
 
 if test "$help" == "-h"
 then
-    echo 'This is the Help commands'
+    sh ./help.sh
 fi
