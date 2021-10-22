@@ -1,15 +1,7 @@
 #!/bin/bash
 
 echo 'Welcome to Notes app For linux'
-# sh ./info.sh
-
-#help file
-echo 'Type -h for help'
-echo ''
-echo 'Type -a For settiup the aliases (optional)'
-echo ''
-echo 'Use "Note" for All commands'
-echo ''
+sh ./info.sh
 
 #help -h command
 read -p "NotesApp>" help
