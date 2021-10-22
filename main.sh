@@ -11,7 +11,8 @@ then
     sh ./help.sh
 else
     echo 'Command Not found'
-    read -p "NotesApp>" pass
+    echo ''
+    read -p "NotesApp>" pass1
 fi
 
 
