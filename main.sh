@@ -3,10 +3,15 @@
 echo 'Welcome to Notes app For linux'
 sh ./info.sh
 
-#help -h command
-read -p "NotesApp>" help
 
+#help -h command
+terminal= read -p "NotesApp>" help
 if test "$help" == "-h"
 then
     sh ./help.sh
+else
+    echo 'Command Not found'
+    read -p "NotesApp>" pass
 fi
+
+

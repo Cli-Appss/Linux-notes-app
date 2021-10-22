@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo 'Helpppppppp'
+echo '-h Shows All the Commands with'
