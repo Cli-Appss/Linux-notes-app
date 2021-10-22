@@ -9,3 +9,4 @@ echo 'Use Note for All commands'
 echo ''
 
 #help -h command
+read -p "NotesApp>" -h
