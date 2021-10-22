@@ -15,4 +15,8 @@ echo 'Notes Commands'
 
 echo ""
 
-echo "(Note view) -- Shows all the notes takes in specific categories"
+echo "(note view) -- Shows all the notes takes in specific categories"
+echo ''
+echo "(note categories) -- Shows alll the Categories."
+echo ''
+echo "(note add) -- adds a new note you can edit it with nano,vim any text editor you love!"
