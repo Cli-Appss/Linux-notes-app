@@ -12,3 +12,7 @@ echo ""
 echo ""
 
 echo 'Notes Commands'
+
+echo ""
+
+echo "(Note view) -- Shows all the notes takes in specific categories"
