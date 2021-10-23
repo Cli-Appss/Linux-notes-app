@@ -5,14 +5,26 @@ sh ./info.sh
 
 
 #help -h command secition
+
 terminal= read -p "NotesApp>" help
+
 if test "$help" == "-h"
 then
-    sh ./help.sh
-else
-    echo 'Command Not found'
+    sh ./help.sh  
     echo ''
-    read -p "NotesApp>" pass1
+    read -p "NotesApp>" help
+
+fi
+
+
+#other help based commands sections
+
+if test "$help" == '-a'
+then
+    echo 'aliases setup'
+
+    read -p "NotesApp>" help
+   
 fi
 
 
