@@ -55,6 +55,10 @@ do
         sh ./noteAdd.sh    
     fi
 
+    #adding basic linux Commands
+
+   
+
     
 
 
