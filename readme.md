@@ -5,3 +5,6 @@ a simple linux package for linux users to take notes
 
 (warning this Package is Still under Devlopment)
 (unstable-release1.0)
+
+Install the package via github 
+`https://github.com/code123841/Linux-notes-app.git`
