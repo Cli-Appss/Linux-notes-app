@@ -29,3 +29,7 @@ echo ''
 
 echo "note yesterday
 -- shows notes/tasks  taken yesterday"
+
+
+echo ''
+
