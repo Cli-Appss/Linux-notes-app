@@ -26,3 +26,6 @@ echo "note add
 -- adds a new note you can edit it with nano,vim any text editor you love!"
 
 echo ''
+
+echo "note yesterday
+-- shows notes/tasks  taken yesterday"
