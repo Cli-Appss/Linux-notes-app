@@ -52,7 +52,8 @@ do
 
     if test  "$help" == 'note add'
     then 
-        sh ./noteAdd.sh    
+        sh ./noteAdd.sh  
+        echo ''  
     fi
 
     #adding basic linux Commands
