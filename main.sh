@@ -3,17 +3,18 @@
 echo 'Welcome to Notes app For linux'
 sh ./info.sh
 
-# Using
+  makedir() {
+        sh ./mkdir.sh
+    }
+
+    makedir
+# Using for loop fr 1000 times
 max=1000
 for i in `seq 2 $max`
 do
     #notes Contaniers
     #mkdir notes section
-    makedir() {
-        sh ./mkdir.sh
-        exit 
-    }
-    makedir
+  
     
     read -p 'NotesApp>' help
 
