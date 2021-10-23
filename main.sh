@@ -38,13 +38,7 @@ do
     
     fi
 
-    #note view
-
-    if test "$help" == 'note view'
-    then 
-       sh ./noteView.sh
     
-    fi
 
     #quitting the program
 
@@ -74,17 +68,7 @@ do
         echo 'Notes edited from the last 24 hours'
         #finds note which were edited during the last 24 hrss
         cd notes
-        find . -type f -newermt "yesterday"
-    #shows notes taken today
-    elif test = "$help" == 'note today'
-    then 
-        echo "Notes taken today"
-
-    #note view settings
-
-    elif test "$help" == 'note view'
-    then
-        echo 'Notes views'
+        find . -type f -newemt "yesterday"
     
     fi 
 

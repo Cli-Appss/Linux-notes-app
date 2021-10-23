@@ -33,9 +33,7 @@ echo "note yesterday
 
 echo ''
 
-echo "note today
---shows notes/taks taken today"
+
 
 echo ''
-echo "note view filename
---shows the specific note "
+
