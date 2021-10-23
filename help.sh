@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "- Based Commands"
+echo "(-) Based Commands"
 echo ''
 echo '-h Shows all the Command to use this program'
 echo ''
@@ -15,10 +15,14 @@ echo 'Notes Commands'
 
 echo ""
 
-echo "(note view) -- Shows all the notes takes in specific categories"
+echo "note view -- Shows all the notes takes in specific categories"
 echo ''
-echo "(note categories) -- Shows alll the Categories."
+
+echo "note categories -- 
+Shows all the Categories."
+
 echo ''
-echo "(note add) -- adds a new note you can edit it with nano,vim any text editor you love!"
+echo "note add 
+-- adds a new note you can edit it with nano,vim any text editor you love!"
 
 echo ''

@@ -65,6 +65,12 @@ do
 
     #adding basic linux Commands
 
+    if test "$help" == 'ls'
+    then 
+        ls 
+    
+    fi 
+
    
 
     
