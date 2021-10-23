@@ -3,8 +3,8 @@
 echo 'Welcome to Notes app For linux'
 sh ./info.sh
 
-
-max=10
+# Using
+max=1000
 for i in `seq 2 $max`
 do
     read -p 'NotesApp>' help
@@ -33,11 +33,25 @@ do
 
     if test "$help" == 'note view'
     then 
+        echo ''
         echo 'this is Notes View'
         echo ''
+    
     fi
+
+    if test "$help" == 'quit'
+    then
+        echo ''
+        echo 'Thanks For using NotesApp!'
+        exit
+    fi
+
+    
+
+
 
 
 
 done
+
 
