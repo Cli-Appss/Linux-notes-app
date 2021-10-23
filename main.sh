@@ -7,6 +7,8 @@ sh ./info.sh
 max=1000
 for i in `seq 2 $max`
 do
+    #notes Contaniers
+    
     read -p 'NotesApp>' help
 
     #help -h command secition
@@ -34,16 +36,23 @@ do
     if test "$help" == 'note view'
     then 
         echo ''
-        echo 'this is Notes View'
+        echo 'Here Are all Your Current Notes'
         echo ''
     
     fi
+
+    #quitting the program
 
     if test "$help" == 'quit'
     then
         echo ''
         echo 'Thanks For using NotesApp!'
         exit
+    fi
+
+    if test  "$help" == 'note add'
+    then 
+        sh ./noteAdd.sh    
     fi
 
     
