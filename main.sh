@@ -27,4 +27,12 @@ then
    
 fi
 
+#note view
+
+if test "$help" == 'note view'
+then 
+    echo 'this is Notes View'
+    echo ''
+    read -p "NotesApp>" help
+fi
 
