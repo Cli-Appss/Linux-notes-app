@@ -33,3 +33,6 @@ echo "note yesterday
 
 echo ''
 
+echo "notes today
+--shows notes/taks taken today"
+

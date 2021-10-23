@@ -68,6 +68,9 @@ do
     if test "$help" == 'ls'
     then 
         ls 
+    elif test "$help" == 'note yesterday'
+    then 
+        echo 'Notes taken yesterday'
     
     fi 
 
