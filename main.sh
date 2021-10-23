@@ -48,6 +48,8 @@ do
         exit
     fi
 
+    #note add
+
     if test  "$help" == 'note add'
     then 
         sh ./noteAdd.sh    
