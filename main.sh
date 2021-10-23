@@ -75,7 +75,9 @@ do
         #finds note which were edited during the last 24 hrss
         cd notes
         find . -type f -newermt "yesterday"
-    elif test "$hel"
+    elif test "$help" == 'note view'
+    then
+        echo 'Notes views'
     
     fi 
 
