@@ -68,9 +68,12 @@ do
     if test "$help" == 'ls'
     then 
         ls 
+    
     elif test "$help" == 'note yesterday'
     then 
-        echo 'Notes taken yesterday'
+        echo 'Notes edited from the last 24 hours'
+        #finds note which were edited during the last 24 hrss
+        find . -type f -newermt "yesterday"
     
     fi 
 
