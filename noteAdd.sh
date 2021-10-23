@@ -1,3 +1,4 @@
 #!/bin/bash
-
-nano note1.txt
+mkdir notes
+cd notes
+nano note.txt

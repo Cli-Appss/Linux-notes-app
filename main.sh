@@ -35,9 +35,7 @@ do
 
     if test "$help" == 'note view'
     then 
-        echo ''
-        echo 'Here Are all Your Current Notes'
-        echo ''
+       sh ./noteView.sh
     
     fi
 
