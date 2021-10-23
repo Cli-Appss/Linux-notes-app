@@ -1,4 +1,5 @@
 #!/bin/bash
+read -p 'Filename>' file
 mkdir notes
 cd notes
-nano note2.txt
+nano $file.txt

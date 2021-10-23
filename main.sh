@@ -48,7 +48,7 @@ do
         exit
     fi
 
-    #note add
+    #note add need to fix changes
 
     if test  "$help" == 'note add'
     then 
