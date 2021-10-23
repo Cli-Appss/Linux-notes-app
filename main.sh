@@ -8,6 +8,12 @@ max=1000
 for i in `seq 2 $max`
 do
     #notes Contaniers
+    #mkdir notes section
+    makedir() {
+        sh ./mkdir.sh
+        exit 
+    }
+    makedir
     
     read -p 'NotesApp>' help
 

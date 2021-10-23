@@ -1,5 +1,4 @@
 #!/bin/bash
-read -p 'Filename>' file
-mkdir notes
+read -p 'Please enter Filename>' file
 cd notes
 nano $file.txt
