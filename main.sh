@@ -74,6 +74,7 @@ do
     then 
         echo 'All the notes'
         echo ''
+        cd notes
         ls
     elif test "$help" == 'note latest'
     then 
