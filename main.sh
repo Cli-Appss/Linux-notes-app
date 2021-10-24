@@ -68,7 +68,8 @@ do
         echo 'Notes edited from the last 24 hours'
         #finds note which were edited during the last 24 hrss
         cd notes
-        find . -type f -newemt "yesterday"
+
+        find . -type f -newermt "yesterday"
     
     fi 
 
