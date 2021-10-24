@@ -33,7 +33,7 @@ do
 
     if test "$help" == '-a'
     then
-        echo 'aliases setup'
+        sh ./aliases-setup.sh
 
     
     fi
