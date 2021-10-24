@@ -3,6 +3,7 @@ echo "(-) Based Commands"
 echo ''
 echo 'note help Shows all the Command to use this program'
 echo ''
+echo 'note latest shows the lastest edited tasks and notes'
 echo ''
 echo "-web lauches the web cli for this package (still under beta version)"
 

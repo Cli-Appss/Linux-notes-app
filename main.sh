@@ -75,6 +75,13 @@ do
         echo 'All the notes'
         echo ''
         ls
+    elif test "$help" == 'note latest'
+    then 
+        echo 'Notes you hav edited in the past hour'
+        echo ''
+        cd notes 
+
+        find . -type  f -newermt "-1 hour"
     
     fi 
 
