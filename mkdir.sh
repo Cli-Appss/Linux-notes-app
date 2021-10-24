@@ -1,7 +1,12 @@
 #!/bin/bash
-DIR= lib/notes
-if [ ! -d "$DIR" ]; then
-  # script statements if $DIR doesn't exist.
-  mkdir lib && cd lib && mkdir notes
-  echo 'New lib/notes made'
+
+dirname="notes/"
+
+if [ ! -d "$dirname" ]
+then
+    echo "File doesn't exist. Creating now"
+    mkdir ./$dirname
+    echo "File created"
+else
+    echo "File exists"
 fi
