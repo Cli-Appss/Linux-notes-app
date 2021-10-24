@@ -1,2 +1,3 @@
 #!/bin/bash
-mkdir lib/notes
+mkdir lib
+cd lib && mkdir notes
