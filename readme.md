@@ -12,3 +12,5 @@ supported versions- ubuntu latest, Arch linux
 Install the package via github 
 `https://github.com/code123841/Linux-notes-app.git`
 
+
+Soon Coming out For windows too!
