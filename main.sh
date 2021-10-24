@@ -21,7 +21,7 @@ do
     #help -h command secition
 
 
-    if test "$help" == "-h"
+    if test "$help" == "note help"
     then
         sh ./help.sh  
         echo ''
