@@ -70,6 +70,12 @@ do
         cd notes
 
         find . -type f -newermt "yesterday"
+
+    elif test "$help" == 'note view'
+    then 
+        echo 'All the notes'
+        echo ''
+        ls
     
     fi 
 
