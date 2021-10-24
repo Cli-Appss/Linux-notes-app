@@ -1,9 +1,9 @@
 #!/bin/bash
-FILE = ./notes
+FILE = lib/notes
 
 if test -f "$FILE"; then 
-    echo './notes File already exists'
+    echo './notes File already exists posting notes in the notes directory'
 else
-    echo 'Creating ./notes directory'
-    mkdir notes
+    echo 'Creating /lib/notes directory'
+    
 fi
