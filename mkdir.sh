@@ -8,5 +8,5 @@ then
     mkdir ./$dirname
     echo "File created"
 else
-    echo "File exists"
+    echo "NOTICE:File exists in correct path skipping.."
 fi
