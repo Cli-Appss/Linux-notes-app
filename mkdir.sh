@@ -1,10 +1,7 @@
 #!/bin/bash
-mkdir lib
-cd lib && mkdir notes
-
-FILE= lib/notes
-
-
-if [[ -f "$FILE" ]]; then
-    echo "$FILE exists."
+DIR= lib/notes
+if [ ! -d "$DIR" ]; then
+  # script statements if $DIR doesn't exist.
+  mkdir lib && cd lib && mkdir notes
+  echo 'New lib/notes made'
 fi
