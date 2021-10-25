@@ -75,6 +75,7 @@ do
         echo 'Notes you hav edited in the past hour'
         echo ''
         cd notes 
+        #test
 
         find . -type  f -newermt "-1 hour"
     
