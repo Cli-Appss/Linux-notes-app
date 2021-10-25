@@ -47,5 +47,5 @@ note latest
 
 #### Future (linux)
 
-- Improve Probabilites of Commands
-- 
+- Improve Probabilites of Commands 
+- saving to cloud process
