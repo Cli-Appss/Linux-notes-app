@@ -1,4 +1,5 @@
 *this file has the future of the windows notes taking platoform*
 
+*this windows platform is built with node js fr command prompt will update it to the  readme.md file fr the windows section*
 Future:
 
