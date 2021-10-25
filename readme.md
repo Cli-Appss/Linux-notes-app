@@ -46,3 +46,6 @@ note latest
 ```
 
 #### Future
+
+- Improve Probabilites of Commands
+- 
