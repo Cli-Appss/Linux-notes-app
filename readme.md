@@ -49,3 +49,5 @@ note latest
 
 - Improve Probabilites of Commands 
 - saving to cloud process
+- Auto text editor setup 
+- changess in the look
