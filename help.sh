@@ -1,7 +1,8 @@
 #!/bin/bash
 echo "(-) Based Commands"
 echo ''
-echo 'note help Shows all the Command to use this program'
+echo 'note help 
+-- Shows all the Command to use this program'
 echo ''
 echo ''
 echo ''
