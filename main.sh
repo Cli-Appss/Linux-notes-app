@@ -31,13 +31,7 @@ do
 
     #other help based commands sections
 
-    if test "$help" == '-a'
-    then
-        sh ./bash_aliases
-    
-    fi
-
-    
+  
 
     #quitting the program
 
