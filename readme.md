@@ -45,7 +45,7 @@ note latest
 
 ```
 
-#### Future
+#### Future (linux)
 
 - Improve Probabilites of Commands
 - 
