@@ -12,7 +12,7 @@ export async function help(){
 
     var noteCommand2 = "Note: [-add] adds a new note automatically opens note_pad for editing";
 
-    var noteCommand3 = "Note: [-view] Shows all the notes in the following directory."
+    var noteCommand3 = "Note: [-l shows all the files in the notes/ folder]"
 
 
 // running system Commands
