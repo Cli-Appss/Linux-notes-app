@@ -1,5 +1,8 @@
 const chalk = require('chalk');
 
+const { spawn } = require('child_process');
+
+
 export async function help(){
     var intro = "Hello! and Welcome to Notes app for windows.";
 
@@ -12,6 +15,11 @@ export async function help(){
     var noteCommand3 = "Note: [-view] Shows all the notes in the following directory."
 
 
+// running system Commands
+
+
+
+
     console.log(chalk.bold.green(intro))
     console.log("")
     console.log(chalk.bold.blue(Helpcommand))
@@ -21,4 +29,7 @@ export async function help(){
     console.log(chalk.bold.blue(noteCommand2))
     console.log("")
     console.log(chalk.bold.blue(noteCommand3))
+    console.log("")
+    console.log(test)
+
 }
