@@ -1,6 +1,7 @@
 import minimist  from "minimist";
 import { help  } from './help.js';
 import { version } from './version.js';
+import { testSpawn } from './test-spawn.js';
 
 export async function cli(argsArray) {
     const args = minimist(argsArray.slice(2));
@@ -15,6 +16,10 @@ export async function cli(argsArray) {
     cmd = 'help';
   }
 
+  if(args.list || args.l) {
+    cmd = 'testSpawn'
+  }
+
  
 
   switch (cmd) {
@@ -25,6 +30,11 @@ export async function cli(argsArray) {
     case 'help':
       help(args);
       break;
+
+    case 'testSpawn':
+      testSpawn(args);
+      break;
+
     
   
 
