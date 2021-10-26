@@ -1,7 +1,6 @@
 import minimist  from "minimist";
 import { help  } from './help.js';
 import { version } from './version.js';
-import { test } from './test.js';
 
 export async function cli(argsArray) {
     const args = minimist(argsArray.slice(2));
@@ -16,9 +15,7 @@ export async function cli(argsArray) {
     cmd = 'help';
   }
 
-  if(args.test || args.t){
-      cmd = 'test'
-  }
+ 
 
   switch (cmd) {
     case 'version':
@@ -29,9 +26,7 @@ export async function cli(argsArray) {
       help(args);
       break;
     
-    case 'test':
-        test(args);
-        break;
+
 
   }
 
