@@ -51,3 +51,5 @@ note latest
 - saving to cloud process
 - Auto text editor setup 
 - changess in the look
+
+[for windows]("https://github.com/Cli-Appss/Linux-notes-app/tree/main/win-notes-version")
