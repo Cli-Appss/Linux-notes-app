@@ -14,6 +14,8 @@ export async function help(){
 
     var noteCommand3 = "Note: [-l shows all the files in the notes/ folder]"
 
+    
+
 
 // running system Commands
 
