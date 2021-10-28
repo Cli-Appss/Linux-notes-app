@@ -49,3 +49,6 @@ echo ''
 
 echo 'note task --rm
 -- removes the task you want to remove.'
+
+echo 'note task --view
+-- shows all the tasks present in you'
