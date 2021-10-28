@@ -1,9 +1,15 @@
 #!/bin/bash
 
-cd tasks/
 read -p 'Please enter Filename you want to delete>' file
-cd tasks/
-rm $file.txt
-echo ''
-echo 'Created Note successfully'
+
+
+if [ -f "$file" ]
+then
+    cd tasks/
+    rm $file.txt
+    echo 'removed note successfully'
+elif [ ! -f "$file" ]
+then 
+    echo "file was not found in $file"
+fi
 

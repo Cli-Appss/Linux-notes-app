@@ -89,12 +89,11 @@ do
     elif test "$help" == 'note task --rm'
     then 
         sh ./task-remove.sh
-        echo 'removing task file.'
 
     elif test "$help" == 'note task --view'
     then
         sh ./task-view.sh
-        
+
 
 
     
