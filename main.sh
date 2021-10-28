@@ -81,7 +81,8 @@ do
     # tasks new features
     elif test "$help" == 'note task --add'
     then 
-        echo ""
+        sh ./tasks-create.sh
+        echo "Adding new tasks"
 
 
     
