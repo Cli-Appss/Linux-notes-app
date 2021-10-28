@@ -79,8 +79,11 @@ do
 
         find . -type  f -newermt "-1 hour"
     # tasks new features
+    elif test "$help" == 'note task --add'
+    then 
+        echo ""
 
-    
+
     
     fi 
 
