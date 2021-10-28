@@ -44,3 +44,8 @@ echo ''
 
 echo 'note task --add 
 -- adds a new dir called tasks/ where yo can enter your tasks'
+
+echo ''
+
+echo 'note task --rm
+-- removes the task you want to remove.'

@@ -10,7 +10,7 @@ then
     mkdir ./$dirname
     echo "File created"
 else
-    echo "NOTICE:File exists in correct path skipping.."
+    echo "NOTICE:File exists in correc#!t path skipping.."
 fi
 
 sleep 1 
@@ -19,6 +19,7 @@ sleep 1
 
 echo 'successfully created the following directories..'
 
+cd tasks/
 
 read -p 'Please enter Filename>' file
 cd notes/

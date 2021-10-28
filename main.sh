@@ -88,7 +88,7 @@ do
 
     elif test "$help" == 'note task --rm'
     then 
-        sh ./task-remove
+        sh ./task-remove.sh
         echo 'removing task file.'
 
 
