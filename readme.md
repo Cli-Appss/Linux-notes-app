@@ -42,6 +42,14 @@ note yesterday
 note latest
 -- shows the Rect changes of the file
 
+note task --add
+-- adds a new dir called tasks/ where yo can enter your tasks
+
+note task --rm
+-- removes the task you want to remove.
+note task --view
+-- shows all the tasks present in you
+
 
 ```
 
