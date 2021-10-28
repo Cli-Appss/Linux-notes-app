@@ -18,3 +18,10 @@ sleep 1
 
 
 echo 'successfully created the following directories..'
+
+
+read -p 'Please enter Filename>' file
+cd notes/
+nano $file.txt
+echo ''
+echo 'Created Note successfully'

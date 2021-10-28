@@ -39,3 +39,8 @@ echo ''
 echo 'note latest 
 -- shows the Rect changes of the file'
 
+echo ''
+
+
+echo 'note task --add 
+-- adds a new dir called tasks/ where yo can enter your tasks'
