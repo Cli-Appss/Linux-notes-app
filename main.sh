@@ -78,11 +78,18 @@ do
         #test  
 
         find . -type  f -newermt "-1 hour"
+
+
     # tasks new features
     elif test "$help" == 'note task --add'
     then 
         sh ./tasks-create.sh
         echo "Adding new tasks"
+
+    elif test "$help" == 'note task --rm'
+    then 
+        sh ./task-remove
+        echo 'removing task file.'
 
 
     
